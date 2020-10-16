@@ -3,7 +3,7 @@ require 'sinatra/base'
 class Birthday < Sinatra::Base
 
     get '/' do
-        erb :name_form
+        erb :name_birthday_form
     end
 
     post '/happy_birthday' do

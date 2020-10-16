@@ -3,6 +3,6 @@ feature 'Name form' do
     visit('/')
     fill_in(:name, with: 'Cameron')
     click_button('Submit')
-    expect(page).to have_content('Hello, Cameron!')
+    expect(page).to have_content('Hello, Cameron')
     end
 end
